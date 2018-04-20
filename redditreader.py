@@ -35,7 +35,7 @@ def start_skill():
 @ask.intent("YesIntent")
 def share_headlines():
     headlines = get_headlines()
-    headlines_msg = 'The current world news headlines are {}'.format(headlines)
+    headlines_msg = 'The current world news headlines are ... {}'.format(headlines)
     return statement(headlines_msg)
 
 @ask.intent("NoIntent")
