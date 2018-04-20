@@ -25,7 +25,7 @@ def get_headlines():
 
 @app.route('/')
 def homepage():
-    return "Hi There! How ya doing?"
+    return "End point located at /reddit_reader?"
 
 @ask.launch
 def start_skill():
