@@ -44,4 +44,4 @@ def no_intent():
     return statement(bye_text)
 
 if __name__ == '__main__':
-    app.run(environ.get('PORT'))
+    app.run()
