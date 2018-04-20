@@ -9,7 +9,7 @@ app = Flask(__name__)
 ask = Ask(app, "/reddit_reader")
 
 def get_headlines():
-    user_pass_dict = {'user' : 'USERNAME', 'passwd' : 'PASSWORD', 'api_type' : 'json'}
+    user_pass_dict = {'user' : 'USERNAME', 'passwd' : 'PASSWD', 'api_type' : 'json'}
 
     sess = requests.Session()
     sess.headers.update({'User-Agent' : 'python:reddit_reader:v1.0 (by /u/USERNAME)'})
