@@ -23,7 +23,7 @@ def get_headlines():
 
     return titles
 
-@app.route('/redditreader')
+@app.route('/')
 def homepage():
     return "Hi There! How ya doing?"
 
