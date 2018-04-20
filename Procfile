@@ -1,1 +1,1 @@
-web: gunicorn redditreader:app
+web: python redditreader.py
