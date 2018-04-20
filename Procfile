@@ -1,1 +1,1 @@
-web: python redditreader.py
+worker: python redditreader.py
